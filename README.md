@@ -6,7 +6,7 @@ intraday component (open → close). This effect is documented in US equities;
 this project tests whether it holds in Indian data, and finds a stronger version
 (US intraday is roughly flat; Nifty's is significantly negative).
 
-**Headline finding:** the entire equity premium — and more — accrued overnight.
+**Headline finding:** the entire equity premium, and more, accrued overnight.
 Overnight returns averaged +26.0% annualised; intraday returns averaged −15.0%
 annualised (t = 10.8 and −4.4). ₹1 held overnight-only since 2010 grew to ₹62.17;
 held intraday-only, it fell to ₹0.07. Buy-and-hold returned ₹4.63.
@@ -28,7 +28,7 @@ Data: Yahoo Finance via yfinance; free data caveats apply, especially for open
 prices. The sample end date is pinned, so the notebook reproduces these figures
 exactly.
 
-Limitations are documented in the notebook — price index (excludes dividends),
+Limitations are documented in the notebook: price index (excludes dividends),
 i.i.d. assumptions imperfect given volatility clustering, costs priced on futures
 while returns are measured on spot, and today's cost structure applied
 retrospectively.
